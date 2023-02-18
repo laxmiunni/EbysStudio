@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Eby's Studio </title>
+        <!-- <link rel="stylesheet" href=https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous"> -->
+        <link rel="stylesheet" href="css/stylesheet.css"  type="text/css"/>
+        <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=neon|outline|emboss|shadow-multiple"> -->
+        <link rel="stylesheet" href="CSS/responsive.css"  type="text/css"/>
+        <link href="images/favicon.png" type="image/png" rel="shortcut icon"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script data-cfasync="false" type="text/javascript"
+  src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script>
+
+        
+    </head>
+    
+<body>
+    <section class="header">
+        <!-- <div class="container"> -->
+            <div class="header1">
+                <img class="img-fluid" src="images/aboutme-enj1.png" height="400"/>
+            </div>
+            
+      <div class="container"> 
+    <div class="header2">
+        
+            <div class="heading">
+                <h1>LEARN ART WITH EBY</h1>
+                <h2 class="font-effect-emboss">Learn with the Master</h2>
+           </div>
+            <div class="reach">
+          
+                <a href="tel:+91 9447065898" ><img src="images/phone-call.png"/>+91 9447065898 </a> <br>
+          
+                <a href="mailto:ebynjoseph123@gmail.com"><img src="images/email.png"/>ebynjoseph123@gmail.com</a> 
+          
+            
+          </div>
+          </div>
+  
+       
+      </div>
+      
+
+    </section>
+    <section class="banner">
+        <div class="container1">
+            <div class="banner1">
+           
+             <h1>3 MONTHS PROGRAMS - PRACTICE @ HOME OR IN CLASS</h1>
+
+             
+               <div class="flexbox-container">
+                 
+                    <div class="flexbox-course">
+                    <h1>FIGURATIVE ART & ACRYLIC PAINTING MASTERY - 3 MONTHS </h1>
+                    <div class="flexbox-course1 overlay-blur">
+                        <h2>Journey in Figurative study and acrylic painting</h2><br><br>
+                        <a href="./course.html" class="buttonstyle1" >VIEW COURSE</a>
+                    </div>
+                </div></div>
+                        
+                    
+
+            </div>
+        </div>
+            <div class="banner2">
+            <form class="form" id="submit-form" action="">
+                <h3>Quick Enquiry</h3>
+                <label for="name">Name</label>
+                <!-- <input class="control" type="text" placeholder="Enter your Name"/> -->
+                <input class="control" type="text" placeholder="Enter your name" textarea id="subject" name="Name" style="height:50px"></textarea>
+                <label for="number">Contact number</label>
+                <input class="control" type="number" placeholder="Enter your phone number" textarea id="subject" name="Phone" style="height:50px"></textarea>
+                <!-- <input class="control" type="number" placeholder="Enter your phone number"/> -->
+                <label for="Email">Email address</label>
+                <!-- <input class="control" type="email" placeholder="Enter your email address"/>   -->
+                <input class="control" type="email" placeholder="Enter your email Id" textarea id="subject" name="Email id" style="height:50px"></textarea>        
+                <label for="Message">Message</label>
+                <input class="control" type="text" placeholder="Enter your Message" textarea id="subject" name="message" style="height:120px"></textarea><br>
+                <!-- <button class="buttonstyle" type="button" >SUBMIT</button> -->
+                <input class="buttonstyle" type="submit" value="Submit" />
+               
+            </form>
+        </div>
+    </section>
+
+    <script>
+        $("#submit-form").submit((e)=>{
+            e.preventDefault()
+            $.ajax({
+                url:"https://script.google.com/macros/s/AKfycbwjRFOtwRzuq72GJqBzW6_BOGj1a_Lt_AqI-GyZzB5YH-bVTZOT6aCbCJl577rEHu2y/exec",
+                data:$("#submit-form").serialize(),
+                method:"post",
+                success:function (response){
+                    alert("Form submitted successfully")
+                    window.location.reload()
+                    //window.location.href="https://google.com"
+                },
+                error:function (err){
+                    alert("Something Error")
+    
+                }
+            })
+        })
+        
+    </script>
+      </body>
+</html>
