@@ -45,7 +45,7 @@ section{
     float: left;
     margin-left: -1px;
 }
-.header2 .reach a{
+.header2  a{
     color: wheat;
     text-decoration: none;
     float: left;
@@ -124,7 +124,7 @@ section{
     /* border: 1px solid #f5233e; */
     padding: 15px 30px;
     font-size: 18px;
-    margin-top: -50px;
+    /* margin-top: -50px; */
     /* font-weight: bold; */
     border-radius: 2em;
     margin-bottom: 13px;
@@ -136,9 +136,9 @@ section{
 }
 .buttonstyle:hover {
     background-color: #777; }
-@media (max-width: 1250px) {
+/* @media (max-width: 1250px) {
   .footer-contact-form {
-    width: 100%; } }
+    width: 100%; } } */
 
 .buttonstyle3{
     text-decoration: none;
@@ -171,17 +171,18 @@ section{
     margin-left: -12px;
     display: -webkit-inline-box;
 }
+
 .buttonstyle3:hover {
     background-color: #06535b; }
-@media (max-width: 1250px) {
+/* @media (max-width: 1250px) {
   .footer-contact-form {
-    width: 100%; } }
+    width: 100%; } } */
 
     .buttonstyle4:hover {
         background-color: #06535b; }
-    @media (max-width: 1250px) {
+    /* @media (max-width: 1250px) {
       .footer-contact-form {
-        width: 100%; } }
+        width: 100%; } } */
 
 .form{
     background-color: rgba(0,0,0,0.7);
@@ -208,11 +209,36 @@ section{
     font-size: 13px;
 }
 #subject {
-    height: 100%;
+    /* height: 100%; */
+    height: 30px;
     width: 100%;
     display: block;
     padding-left: 17px;
     padding-right: 24px;
+}
+#phone-number  {
+    height: 30px;
+
+}
+#Ycourse {
+    height: 30px;
+
+}
+#Yclass{
+    height: 30px;
+
+}
+#email-id {
+    height: 30px;
+
+}
+#message-in {
+    height: 120px;}
+#your-class{
+        height: 30px;
+    }
+#your-course{
+    height: 30px;
 }
 .grids{
     padding: 5px 0px;
@@ -415,6 +441,7 @@ float: left;
         align-items: center;
         /* display: -webkit-inline-box; */
     }
+    
     .back-course{
         background-color: #0c0c0c;
     color: #fff;
@@ -453,6 +480,12 @@ float: left;
     }
     .container-payment1 h4{
         padding-top: 63px;
+        font-family: din regular;
+        font-size: 16px;
+        margin-left: -37px;
+    }
+    .container-payment1 h5{
+        padding-top: 63px;
         /* float: left; */
         margin-left: -37px;
     }
@@ -464,7 +497,10 @@ float: left;
     .container-payment1 h5{
         margin-left: 10px;
         margin-right: 37px;
-        padding-top: 19px;}
+        padding-top: 11px;
+        font-family: din regular;
+        font-size: 13px;
+    }
 
         .container-payment1 h6{
             margin-left: -14px;

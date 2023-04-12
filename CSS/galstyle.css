@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #024341;
+    
+}
+a{
+    min-width: 50px;
+    width: 50px;
+    min-height: 50px;
+    height: 50px;
+    background: #c4c10b4f;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 21px;
+    box-shadow: 0px 8px 12px 0px rgb(0 0 0 / 15%);
+}
+.action{
+    position: absolute;
+    z-index: 99;
+    margin: 160px;
+}
+.left{
+    left: -131px;
+}
+.right{
+    right:-131px;
+}
+
+.items{
+    background-color: rgb(118, 97, 6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    width: 79%;
+    margin: 0 auto;
+    height: 648px;
+    margin-top: 30px;
+    margin-bottom: -19px;
+   border-radius: 70px;
+}
+.image{
+    display: none;
+    object-position: center;
+    object-fit: cover;
+    margin: 0 auto;
+
+}
+.active{
+    display: block;
+}
+
+.back{
+    font-size: 12px;
+    background-color: #058989b0;
+    color: #070707;
+    text-decoration: none;
+    padding: 3px 6px;
+    /* font-size: 15px; */
+    margin-top: -14px;
+    /* border-radius: 2em; */
+    /* margin-bottom: 13px; */
+    font-family: gilroy;
+    margin-left: 1089px;
+    border: none;
+    align-items: center;
+}
+.button2{
+    margin-bottom: -1px;
+}
+
+.course{
+    position: relative;
+}

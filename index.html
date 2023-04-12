@@ -1,7 +1,10 @@
 <!DOCTYPE html>
+<html lang="en">
 <html>
     <head>
-        <meta charset="utf-8">
+      
+        <meta charset="UTF-8">
+        <!-- <meta http-equiv="Content-Type" content="utf-8"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <title>Eby's Studio </title>
         <!-- <link rel="stylesheet" href=https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous"> -->
@@ -20,7 +23,7 @@
     <section class="header">
         <!-- <div class="container"> -->
             <div class="header1">
-                <img class="img-fluid" src="images/aboutme-enj1.png" height="400"/>
+                <img class="img-fluid" alt="picture1" src="images/aboutme-enj1.png" height="400"/>
             </div>
             
       <div class="container"> 
@@ -28,16 +31,16 @@
         
             <div class="heading">
                 <h1>LEARN ART WITH EBY</h1>
-                <h2 class="font-effect-emboss">Learn with the Master</h2>
+                <h2>Learn with the Master</h2>
            </div>
-            <div class="reach">
+            <!-- <div class="reach"> -->
           
-                <a href="tel:+91 9447065898" ><img src="images/phone-call.png"/>+91 9447065898 </a> <br>
+                <a class="reach" href="tel:+91 9447065898" ><img src="images/phone-call.png" alt="pic2"/>+91 9447065898 </a> <br>
           
-                <a href="mailto:ebynjoseph123@gmail.com"><img src="images/email.png"/>ebynjoseph123@gmail.com</a> 
+                <a class="reach" href="mailto:ebynjoseph123@gmail.com"><img src="images/email.png" alt="pic3"/>ebynjoseph123@gmail.com</a> 
           
             
-          </div>
+          <!-- </div> -->
           </div>
   
        
@@ -49,16 +52,16 @@
         <div class="container1">
             <div class="banner1">
            
-             <h1>3 MONTHS PROGRAMS - PRACTICE @ HOME OR IN CLASS</h1>
+             <h1>4 MONTHS PROGRAMS - PRACTICE @ HOME OR IN CLASS</h1>
 
              
                <div class="flexbox-container">
                  
                     <div class="flexbox-course">
-                    <h1>FIGURATIVE ART & ACRYLIC PAINTING MASTERY - 3 MONTHS </h1>
+                    <h1>FIGURATIVE ART & ACRYLIC PAINTING MASTERY - 4 MONTHS </h1>
                     <div class="flexbox-course1 overlay-blur">
                         <h2>Journey in Figurative study and acrylic painting</h2><br><br>
-                        <a href="./course.html" class="buttonstyle1" >VIEW COURSE</a>
+                        <a href="./course1.html" class="buttonstyle1" >VIEW COURSE</a>
                     </div>
                 </div></div>
                         
@@ -71,15 +74,34 @@
                 <h3>Quick Enquiry</h3>
                 <label for="name">Name</label>
                 <!-- <input class="control" type="text" placeholder="Enter your Name"/> -->
-                <input class="control" type="text" placeholder="Enter your name" textarea id="subject" name="Name" style="height:50px"></textarea>
+                <input class="control" type="text" placeholder="Enter your name" textarea id="subject" name="Name" ></textarea>
                 <label for="number">Contact number</label>
-                <input class="control" type="number" placeholder="Enter your phone number" textarea id="subject" name="Phone" style="height:50px"></textarea>
+                <input class="control" type="number" placeholder="Enter your phone number" textarea id="phone-number" name="Phone"></textarea>
                 <!-- <input class="control" type="number" placeholder="Enter your phone number"/> -->
                 <label for="Email">Email address</label>
                 <!-- <input class="control" type="email" placeholder="Enter your email address"/>   -->
-                <input class="control" type="email" placeholder="Enter your email Id" textarea id="subject" name="Email id" style="height:50px"></textarea>        
+                <input class="control" type="email" placeholder="Enter your email Id" textarea id="email-id" name="Email id" ></textarea>        
+                
+                <label for="course">Select Your Course</label>
+                <select id="your-course" class="control" textarea id="course-in" name="Course" ></textarea>>
+                    <option value="Select Your Course">Select Your Course</option>
+                    <option value="Figurative Study">Figurative Study</option>
+                    <option value="Acrylic Painting">Acrylic Painting</option>
+                <!-- <input class="control" type="dropdown" placeholder="Select Your Course" textarea id="Ycourse" name="Course"></textarea> -->
+            </select>
+                <label for="class">Select Your Class</label>
+                <select class="control" id="your-class"  textarea id="class-in" name="Class" ></textarea>>
+                <option value="Select Your Class">Select Your Class</option>
+                <option value="ONLINE">ONLINE</option>
+                <option value="ONSITE">ONSITE</option>
+            </select>
+                <!-- <input class="control" type="dropdown" placeholder="Select Your Class" textarea id="Yclass" name="Class"></textarea> -->
+                <label for="Message">Payment Transaction ID</label>
+                <input class="control" type="text" placeholder="Payment Transaction ID" textarea id="trn-id" name="TrnId" ></textarea><br>
                 <label for="Message">Message</label>
-                <input class="control" type="text" placeholder="Enter your Message" textarea id="subject" name="message" style="height:120px"></textarea><br>
+                <input class="control" type="text" placeholder="Enter your Message" textarea id="message-in" name="message" ></textarea><br>
+                
+               
                 <!-- <button class="buttonstyle" type="button" >SUBMIT</button> -->
                 <input class="buttonstyle" type="submit" value="Submit" />
                

@@ -1,115 +1,367 @@
-@media only screen and (min-width: 992px) and (max-width: 1199px)
-{
-    .container{
-        max-width: 960px;
-    }
-    .tilegrid {
-        height: 100px;
-        width: 21.5%;
-        margin-left: 17px;
-        padding: 11px 12px;
-        margin-right: 0;
-    }
-    .web-design2{
-        width: 85%;
-        margin-left: 55px;
-    }
-    .box{
-        padding: 8px 8px;
-    }
-    .content{
-        width: 60%;
-    }
-    .content h5{
-        font-size: 16px;
 
-    }
-    .head-para h1 {
-        padding: 13px 0px;
-    }
-    .head-para p {
-        padding-bottom: 64px;
-        font-size: 13px;
-    }
+/* 
+@media only screen and (min-width: 375px) and (max-width: 667px)
+@media  screen (max-width: 400px) */
 
-    .web-design2 {
-        width: 89%;
-    }
 
-    .para {
+@media only screen and (max-width: 667px) {
+
+    .header{
+    width: 193%;
+    margin-bottom: -66px;
+    }
+    .header1{
+        width: 38%;
+    }
+    .header1 img{
+        width: 200%;
+    }
+    .header2{
+        margin-left: -63px;
+    }
+    .header2  a{
+        font-size: 11px;
+        margin-top: 120px;
+        margin-bottom: 17px;
+        margin-left: -308px;
+        /* margin-left: -309px;
+        margin-right: 26px;
+         */
+    }
+    .header2 img{
+        height: 11px;
+        width: 11px;
+    }
+    .banner{
+        width: 194%;
+        margin-top: 61px;
+    }
+  
+    .header1 img{
+        width: 106%;
+        height: 204px;
+        margin-top: 0px;
+        margin-bottom: -3px;
+    }
+    .banner1{
+        margin-left:-52px;
+    }
+   .banner .flexbox-container{
+    width: 20%;
+    margin-top: -77px;
+    /* height: 13%;
+    display: inline-flex;
+    padding: 2px 2px;
+    padding-bottom: -77px;
+    padding-right: -65px;
+    position: relative; */
+    /* margin-top: 387px; */
+}
+.buttonstyle{
+   
+    padding: 10px 30px;
+    font-size: 12px;
+   
+    border-radius: 2em;
+    margin-bottom: 13px;
+    
+    
+}
+/* .buttonstyle5{
+   
+    /* padding: 10px 30px;
+    font-size: 12px;
+   
+    border-radius: 2em;
+    margin-bottom: 13px; 
+    
+    
+} */
+.control{
+    font-size: 10px;
+}
+.form label {
+    font-size: 13px;
+}
+   .container{
+    width:20%;
+   }
+   .container1{
+    width: 15%;
+    margin-left: 85px;
+   }
+   .flexbox-course{
+    width: 100%;
+    margin-left: -18px;
+    margin-top: -60px;
+   }
+.form h3{
+    font-size: 16px;
+}
+   
+   .flexbox-course h1{
+    margin-left: -55px;
+    width: 134px;
+    font-family: gilroy;
+    padding-top: 30px;
+    padding-bottom: 35px;
+    /* margin-top: -165px; */
+    background-color: #2f5c5c;
+    height: 165px;
+    margin-left: -244px;
+    }
+   .flexbox-course h1{
+    font-size: 12px;
+   }
+   .flexbox-course1 h2{
+    
+    font-size: 12px;
+    text-align: center;
+    margin-left: 18px;
+    width: 108px;
+    font-family: gilroy;
+    position: relative;
+    margin-left: -46px;
+
+}
+.flexbox-course1 {
+    position: absolute;
+    bottom: 28px;
+    /* width: 277.1%; */
+    height: -144%;
+    margin-left: -100px;
+    margin-top: 121px;
+    height: 43px;
+    opacity: 0;
+    transition: .9s ease;
+    display: block;
+    border-radius: 2px;
+    padding: 59px;
+    padding-bottom: 71px;
+    padding-top: 20px
+}
+   .banner1 h1{
+    font-size: 10px;
+    margin-left: -115px;
+    padding-right: 135px;
+   }
+ 
+   .heading{
+    margin-top: 0px;
+    margin-left: 38px;
+   } 
+   .heading h1{
+    font-size: 10px;
+    margin-top: -82px;
+   }
+   .heading h2{
+    font-size: 10px;
+    margin-top: 90px;
+    margin-left: -309px;
+   }
+
+   .buttonstyle1{
+    padding: 7px 4px;
+    font-size: 9px;
+    /* margin-top: 3px; */
+    border-radius: 2em;
+    /* margin-bottom: 62px; */
+    font-family: gilroy;
+    margin-left: -68px;
+}
+.container-course{
+    font-weight: 600;
+    font-size: 14px;
+    padding-top: 31px;
+    padding-bottom: 19px;
+    margin-top: 47px;
+    width: 322px;
+    margin-left: 20px
+    
+}
+.figurative{
+    margin-left: -40px;
+    width: 59%;
+}
+.acrylic{
+    margin-left: 20px;
+}
+.back-course{
+   
+    padding: 23px 30px;
+    font-size: 15px;
+    margin-top: 869px;
+    border-radius: 2em;
+    margin-bottom: 22px;
+    font-family: gilroy;
+    margin-left: -130px;
+    width: 40%;
+
+}
+.figurative ul {
+    padding-left: 60px;
+    font-weight: 300;
+    padding-top: 31px;
+    padding-bottom: 22px;
+    border-radius: 77px;
+    margin-top: 42px;
+    width: 349px;
+    margin-left: 54px;
+    margin-bottom: 46px;
+}
+.figurative h1 {
+
+    padding-top: 25px;
+    margin-bottom: -32px;
+    padding-left: -4px;
+    margin-left: -61px;
+    width: 166%;
+}
+.acrylic ul {
+    padding-left: 60px;
+    font-weight: 300;
+    padding-top: 31px;
+    padding-bottom: 22px;
+    border-radius: 77px;
+    margin-top: 42px;
+    width: 347px;
+    margin-left: -5px;
+    margin-bottom: 46px;
+}
+.acrylic h1 {
+
+    padding-top: 0px;
+    margin-bottom: -32px;
+    padding-left: -4px;
+    margin-left: 52px;
+    width: 111%
+}
+.container-payment1 {
+    width: 97%;
+    height: 590px;
+    border: 2px;
+    color: white;
+    text-align: center;
+    margin-top: 21px;
+    margin-left: 9px
+}
+.container-payment1 h4 {
+    padding-top: 63px;
+    /* float: left; */
+    margin-left: -14px;
+    font-size: 16px;
+}
+
+
+.container-payment1 p {
+    
+    margin-left: -6px;
+}
+.container-payment1 h7 {
+
+    font-size: 13px;
+}
+.button1 {
+
+    margin-left: -394px;
+    display: flex;
+}
+.button2 {
+
+    margin-left: -214px;
+}
+}
+@media only screen and (max-width: 896px) {
+    .banner1 h1{
+        font-size: 10px;
+        margin-left: -98px;
+       }
+   }
+   @media only screen and (min-width: 360px) and (max-width: 740px){
+    .banner{
+        width: 202%;
+    }
+    .figurative ul{
+        width: 336px
+    
+    }
+    .acrylic ul{
+        width: 336px
         
-        font-size: 18px;
-        padding-bottom: 12px;
-        margin: 10px 8px;
-       
     }
-    .skills{
-        width: 99%;
-    }
-    .testimonytxt p{
-        font-size: 13px;
+}
+@media only screen and (min-width: 412px) and (max-width: 915px){
+.figurative ul{
+    margin-left: 104px;
+}
+.acrylic ul{
+    margin-left: 38px;
+}
+.container-course{
+    margin-left: 61px;
+}
 
-    }
+}
+@media only screen and (min-width: 280px) and (max-width: 653px){
+.header {
+    width: 261%;
+    margin-bottom: -66px
 
 }
 
-@media only screen and (min-width: 768px) and (max-width: 991px)
-{
-.container{
-    max-width: 720px;
+.banner {
+    width: 246%;
+    margin-top: 61px;
+    margin-left: -7px;
+}
+.banner1 {
+    margin-left: -67px;
+    width: 30%;
 }
 .banner1 h1 {
-    font-size: 27px;
+    font-size: 10px;
+    margin-left: -26px;
+    margin-top: 563px;
+    padding-left: 37px;
 }
-.banner1 p {
-    font-size: 19px;
+.flexbox-course{
+margin-top: -566px;
+margin-left: -38px;
 }
-.banner1 h3 {
-    font-size: 23px;
+.banner2{
+    width: 47%;
+    margin-left: -69px;
 }
-.banner1 li {
-    font-size: 20px;
+.container-course{
+width: 314px;
 }
-.control {
-    width: 98%;
-    padding: 15px 12px;
-    font-size: 15px;
-}
-
-.tilegrid {
-    padding: 12px 15px;
-    
-    height: 125px;
-}
-.head-para p {
-    padding-bottom: 77px;
-    font-size: 14px;
-}
-.web-design2 {
-    width: 94%;
+.figurative ul{
+    width: 347px;
     
 }
-
-.para {
-    width: 78%;
-    padding-bottom: 4px;
-    margin: 3px 22px;
-    margin-left: 21px;
+.acrylic ul{
+    width: 344px;
 }
-.skills {
-    padding: 110px 0px;
+.back-course{
+    margin-top: 1019px;
+      width: 53%;
 }
-
-.box h3 {
-    font-size: 17px;
-    /* margin-bottom: -1px; */
+.back-home{
+    margin-bottom: 64px;
+    /* padding-left: 12px; */
+    margin-top: -142px;
 }
-
-.box {
-    width: 32%;
-    padding: 25px 10px;
-    margin-right: -10%;
-    margin-left: 15%;
-    height: 200px;
+.container-payment1 {
+height: 652px;
+}
+.back{
+    padding: 15px 16px;
+    margin-left: 322px;
+}
+.button1 {
+    margin-left: -316px;
+}
+.button2 {
+    margin-left: -205px;
 }
 }
