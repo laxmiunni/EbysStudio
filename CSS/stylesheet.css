@@ -598,9 +598,9 @@ float: left;
     display: flex;
 }
 .button2{
-    margin-top: -97px;
-    margin-bottom: 63px;
-    margin-left: -188px
+    margin-top: -47px;
+    /* margin-bottom: 143px; */
+    margin-left: 422px;
 
 }
     .course{
